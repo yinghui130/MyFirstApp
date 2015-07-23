@@ -25,9 +25,9 @@ public class DisplayMessageActivity extends Activity {
 		textView.setText(message);
 		this.setContentView(textView);
 	}
-
+ 
 	/**
-	 * Set up the {@link android.app.ActionBar}, if the API is available.
+	 * Set up the {@link android.app.ActionBar}, if the API is available.liuyinghui
 	 */
 	@TargetApi(Build.VERSION_CODES.HONEYCOMB)
 	private void setupActionBar() {
