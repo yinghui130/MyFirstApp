@@ -11,6 +11,8 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import com.yzforex.tools.*;
+
 public class DisplayMessageActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +25,8 @@ public class DisplayMessageActivity extends Activity {
 		TextView textView= new TextView(this);
 		textView.setTextSize(10);
 		textView.setText(message);
+		WebHelper helper =new WebHelper("http://tool.yzforex.com/ajax_hbdhq.php?q=1&from=USD&to=CNY");
+		helper.GetResult();
 		this.setContentView(textView);
 	}
  
