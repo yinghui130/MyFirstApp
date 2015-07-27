@@ -25,7 +25,8 @@ public class DisplayMessageActivity extends Activity {
 		TextView textView= new TextView(this);
 		textView.setTextSize(10);
 		textView.setText(message);
-		WebHelper helper =new WebHelper("http://tool.yzforex.com/ajax_hbdhq.php?q=1&from=USD&to=CNY");
+		//WebHelper helper =new WebHelper("http://tool.yzforex.com/ajax_hbdhq.php?q=1&from=USD&to=CNY");
+		 WebHelper helper =new WebHelper("http://www.ip168.com/chxip/doConveRate.do?fromcurrency=CNY&tocurrency=CNY&keyword=12312");
 		helper.GetResult();
 		this.setContentView(textView);
 	}
