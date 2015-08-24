@@ -54,7 +54,7 @@ public class HttpPicActivity extends Activity {
 
 	public void myClickHandler(View view)
 	{
-		String stringUrl="www.baidu.com";
+		//String stringUrl="www.baidu.com";
 		ConnectivityManager connMgr= (ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
 		NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
 		if(networkInfo!=null&&networkInfo.isConnected()){
