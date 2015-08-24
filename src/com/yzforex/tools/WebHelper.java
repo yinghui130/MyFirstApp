@@ -10,7 +10,6 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
 
-import android.R.string;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
