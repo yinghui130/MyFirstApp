@@ -29,7 +29,8 @@ public class MainActivity extends Activity {
 
 	/** called when button_send click */
 	public void sendMessage(View view) {
-		Intent intent = new Intent(this, DisplayMessageActivity.class);
+		//Intent intent = new Intent(this, DisplayMessageActivity.class);
+		Intent intent = new Intent(this, RetDisplayActivity.class);
 		EditText editText = (EditText) this.findViewById(R.id.edit_message);
 		String message = editText.getText().toString();
 		intent.putExtra(EXTRA_MESSAGE, message);

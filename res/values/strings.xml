@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">My First App</string>
-    <string name="action_settings">Settings</string>
-    <string name="edit_message">Enter a message</string>
-    <string name="button_send">Send</string>
-    <string name="title_activity_main">MainActivity</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_display_message">My Message</string>
-    <string name="action_search">Search</string>
+    <string name="app_name">第一个应用</string>
+    <string name="action_settings">设置</string>
+    <string name="edit_message">发送消息</string>
+    <string name="ret_display">汇率展示页面</string>
+    <string name="button_send">发送</string>
+    <string name="title_activity_main">主Activity</string>
+    <string name="hello_world">你好</string>
+    <string name="colon">:</string>
+    <string name="ret_image_tip">一年走势图</string>
+    <string name="title_activity_display_message">我的消息</string>
+    <string name="action_search">搜索</string>
     <string name="title_activity_http_pic">HttpPicActivity</string>
-
+    <string name="title_activity_ret_display">RetDisplay</string>
+    <string name="baseMoney">基准货币</string>
+	<string name="destMoney">标价货币</string>
 </resources>
